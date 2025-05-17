@@ -4,7 +4,7 @@ const app = express();
 const ports = [3001, 3002];
 
 app.get('/', (req, res) => {
-  res.send('Welcome to Node.js app!!');
+  res.send('Hello, Welcome to Node.js app!!!');
 });
 
 ports.forEach(port => {
